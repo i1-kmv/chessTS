@@ -11,4 +11,5 @@ export class Bishop extends Figure {
         this.logo = color === Colors.BLACK ? blackLogo : whiteLogo
         this.name = FigureNames.BISHOP
     }
+    
 }
